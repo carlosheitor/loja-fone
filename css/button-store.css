@@ -13,6 +13,7 @@
   box-shadow: 0 0 39px 0 rgba(50, 50, 50, 0.36);
   margin-right: 0;
   text-decoration: none;
+  cursor: pointer;
 }
 .button-store.-second {
   background-color: transparent;

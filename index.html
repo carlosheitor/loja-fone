@@ -21,9 +21,8 @@
       <header class="header-store">
         <h1 class="title">Logo</h1>
 
-        <input class="search" type="text" placeholder="Busca" />
-
         <nav class="navigation">
+          <input class="search" type="search" placeholder="Busca" />
           <a class="action" href="https://google.com">Produtos</a>
           <a class="action" href="https://google.com">Serviços</a>
           <a class="action -last" href="https://google.com">Carrinho (10)</a>
@@ -38,14 +37,12 @@
         <dl class="product-store">
           <dt class="title">Fone top e feliz</dt>
 
-          <dd class="item">
-            <!-- <div class="star"></div>
-            <div class="star2"></div> -->
-            <img src="img/fullstar.png" />
-            <img src="img/fullstar.png" />
-            <img src="img/fullstar.png" />
-            <img src="img/fullstar.png" />
-            <img src="img/emptystar.png" />
+          <dd class="item -star">
+            <img class="cursor" src="img/fullstar.png" />
+            <img class="cursor" src="img/fullstar.png" />
+            <img class="cursor" src="img/fullstar.png" />
+            <img class="cursor" src="img/fullstar.png" />
+            <img class="cursor" src="img/emptystar.png" />
           </dd>
           <dd class="item">4.0 (9.7)</dd>
           <dd class="item -info">
@@ -64,11 +61,11 @@
             <a class="action" href="comprar.html">Saber mais...</a>
           </dd>
         </dl>
+        <div class="buttons">
+          <button class="button-store -second">Adicionar carrinho</button>
+          <a class="button-store" href="comprar.html">Comprar</a>
+        </div>
       </section>
-      <div class="buttons">
-        <button class="button-store -second">Adicionar carrinho</button>
-        <a class="button-store" href="comprar.html">Comprar</a>
-      </div>
     </div>
   </body>
 </html>

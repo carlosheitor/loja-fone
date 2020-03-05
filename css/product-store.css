@@ -4,6 +4,7 @@
   margin-bottom: 98px;
 }
 .product-store {
+  position: relative;
   color: #fff;
   font-family: "Roboto Mono";
 }
@@ -14,6 +15,15 @@
 .product-store > .item {
   font-size: 20px;
   margin-bottom: 28px;
+}
+.product-store > .item.-star {
+  margin-bottom: 10px;
+}
+.product-store .cursor {
+  cursor: pointer;
+}
+.product-store > .item.-star + .item {
+  margin-left: 7px;
 }
 .product-store > .item.-info {
   width: 200px;
@@ -31,22 +41,14 @@
   line-height: 30px;
   margin-bottom: 30px;
 }
+.product-store > .text.-more {
+  margin-bottom: 0px;
+}
 .product-store .action {
   color: inherit;
   text-decoration: none;
 }
-.buttons {
-  text-align: right;
+.wrapper-product > .buttons {
+  position: absolute;
+  transform: translateY(calc(100% + 98px));
 }
-/* .star {
-  background-image: url(../img/fullstar.png);
-  height: 24px;
-  background-repeat: space;
-  width: 100px;
-}
-.star2 {
-  background-image: url(../img/emptystar.png);
-  height: 24px;
-  background-repeat: space;
-  width: 100px;
-} */
