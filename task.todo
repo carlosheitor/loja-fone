@@ -1,0 +1,84 @@
+Tarefas - desafio 1:
+
+☐  Inserir a fonte correta nos links.
+☐  Inserir os tamanhos corretos de fonte.
+☐  Colocar nas devidas posições a logo e os links.
+
+Float:
+  - Elemento pai ignora...não enxerga mais o elemento 'filho' (força o uso do overflow: hidden no elemento pai);
+  - Libera um novo contexto;
+  - Nunca esconde o conteúdo do elemento que está no contexto original;
+  - O tamanho do elemento fica o tamanho do conteúdo. Define largura e altura senão especificar.
+
+  Margin/Padding:
+    - Quando quero respiro do conteúdo para o elemento, utilizo o padding (respiro interno). Quando desejo o respiro entre elementos, uso o margin (respiro externo).
+
+
+Tarefas - desafio 2:
+
+☐  aplicar espaçamento entre os itens do nav
+☐  criar o botão de comprar fora da tag header
+☐  centralizar o header verticalmente
+
+Display Inline:
+  - deixa elementos na mesma linha;
+  - não deixa definir altura e largura;
+  - o display inline ganha o comportamento de uma PALAVRA.
+Display Block:
+  - não deixa na mesma linha (cria um bloco);
+  - deixa definir largura e altura;
+Display Inline-Block:
+  - deixa elementos na mesma linha;
+  - deixa definir largura e altura;
+Alinhamento texto no centro:
+  - colocar o line-height igual ao tamanho da altura (alinhamento vertical QUANDO TEMOS APENAS 1 LINHA);
+
+Position absolute:
+  - cria novo contexto (tal como float);
+  - o que define largura e altura é o conteúdo;
+  - top e bottom mexe com eixo X;
+  - left e right mexe com eixo Y;
+  - consigo com essas props mover em relação a página;
+
+
+Tarefas - desafio 3:
+
+☐  estudar posts pare de chutar sobre posicionamento;
+
+Vertical-Align:
+  -  propriedade baseline funciona quando temos elmentos inline-block para alinhar esses elementos
+
+Box-sizing:
+  - content-box: somará os valores das bordas dessa forma alterando o valor setado da altura e largura do elemento.
+  - border-box: ignoramos esses valores e eles são subtraídos no valor real do elemento. Atenção ao line-height nesse momento.
+
+  Classes:
+    - quando começa com um traço é uma variação, ou seje, precisa de uma base e temos uma especialização para o estilo em específico.
+
+Tarefas - Desafio 5:
+  ☐  arrumar as fontes dos dds;
+  ☐  espaçamento entre os elementos;
+  ☐  arrumar os botões que mudaram por conta do dd;
+  ☐  inserir a imagem do lado direito e os dds do outro lado.
+
+  Tarefas - Desafio 6:Ok
+  ☐  inserir as estrelas;
+  ☐  inserir a busca;
+  ☐  posicionar os botões;
+
+  Tarefas - Desafio 7:
+  ☐  mudar o cursor para parecer clicável (ex: links);Ok
+  ☐  inverter as cores dos botões quando mouse em cima. (preto fica branco com letra azul e transparente ficará fundo branco e texto vermelho);
+  ☐  posicionar o coração que está no design (rever picture);
+
+Transform:
+  - A propriedade scale aumenta ou diminui proporcionalmente a altura e largura. Usamos com transform!
+
+UX:
+ - Affordance: Fácil de usar e fácil de entender
+
+Tarefas - Desafio 8:
+  ☐  Elementos estrelas e coração dar um crescida quando passar o mouse em cima
+  ☐  Passar o mouse em cima do link precisa aparecer uma linha abaixo crescendo (1px)
+  ☐  a linha que vai aparecer precisa ser animada e precisa ir da esquerda para direita.
+

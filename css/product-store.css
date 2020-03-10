@@ -7,6 +7,7 @@
   position: relative;
   color: #fff;
   font-family: "Roboto Mono";
+  /* padding-left: 60px; */
 }
 .product-store > .title {
   font-size: 25px;
@@ -15,6 +16,12 @@
 .product-store > .item {
   font-size: 20px;
   margin-bottom: 28px;
+}
+.product-store > .item.-heart {
+  position: absolute;
+  transform: translateX(-100%);
+  left: -47px;
+  top: 5px;
 }
 .product-store > .item.-star {
   margin-bottom: 10px;

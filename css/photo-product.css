@@ -4,5 +4,11 @@
   background-color: #fff;
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
-  margin-right: 32px;
+  margin-right: 156px;
+}
+.heart {
+  display: inline-block;
+  margin-top: 56px;
+  margin-right: 46px;
+  vertical-align: top;
 }
