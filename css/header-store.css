@@ -28,11 +28,27 @@
   padding: 8px;
   margin-right: 65px;
 }
-
 .header-store .action {
   text-decoration: none;
   margin-right: 60px;
   color: inherit;
+}
+.header-store .action.action.-sublime {
+  position: relative;
+}
+.header-store .slider {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 110%;
+  margin: 0 auto;
+  height: 2px;
+  background-color: #fff;
+  width: 0;
+  transition: width 500ms ease;
+}
+.header-store .action.-sublime:hover .slider {
+  width: 100%;
 }
 .header-store .action.-last {
   margin-right: 0;

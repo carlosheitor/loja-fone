@@ -23,11 +23,17 @@
   left: -47px;
   top: 5px;
 }
+.product-store > .item.-heart:hover {
+  transform: scale(1.5);
+}
 .product-store > .item.-star {
   margin-bottom: 10px;
 }
 .product-store .cursor {
   cursor: pointer;
+}
+.product-store .cursor:hover {
+  transform: scale(1.5);
 }
 .product-store > .item.-star + .item {
   margin-left: 7px;
