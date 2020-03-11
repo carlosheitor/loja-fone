@@ -21,7 +21,7 @@
   border: none;
   border-bottom: 1px solid #fff;
   background-color: transparent;
-  vertical-align: sub;
+  vertical-align: text-bottom;
   color: inherit;
   font-size: 20px;
   font-family: Arial, "Roboto Mono", Helvetica, sans-serif;
@@ -33,22 +33,23 @@
   margin-right: 60px;
   color: inherit;
 }
-.header-store .action.action.-sublime {
+.header-store .action.-sublime {
   position: relative;
 }
-.header-store .slider {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 110%;
-  margin: 0 auto;
-  height: 2px;
-  background-color: #fff;
-  width: 0;
-  transition: width 500ms ease;
-}
-.header-store .action.-sublime:hover .slider {
+.header-store .action:after {
+  content: "";
+  height: 1px;
   width: 100%;
+  position: absolute;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 250ms linear;
+  transform-origin: center left;
+}
+.header-store .action.-sublime:hover:after {
+  transform: scaleX(1);
 }
 .header-store .action.-last {
   margin-right: 0;

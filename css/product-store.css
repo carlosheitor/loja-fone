@@ -23,16 +23,14 @@
   left: -47px;
   top: 5px;
 }
-.product-store > .item.-heart:hover {
-  transform: scale(1.5);
-}
 .product-store > .item.-star {
   margin-bottom: 10px;
 }
-.product-store .cursor {
+.product-store .icon {
   cursor: pointer;
+  transition: transform 100ms linear;
 }
-.product-store .cursor:hover {
+.product-store .icon:hover {
   transform: scale(1.5);
 }
 .product-store > .item.-star + .item {
